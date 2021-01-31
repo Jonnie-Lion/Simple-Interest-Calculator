@@ -1,8 +1,5 @@
 body {background-color:black}
 h1{color:grey;font:verdana}
-maindiv{background-color:white;font:black;width:300px;
+.maindiv{background-color:white;font:black;width:300px;
        border-radius: 25px;padding:auto;}
-/* div{text-align: center;} */
-footer,p{background-color:white;font:black;width:200px;
-       padding:auto;text-align: center;}
-
+.maindiv .form label {display: inline-block;width: 100px;margin-bottom: 8px}
