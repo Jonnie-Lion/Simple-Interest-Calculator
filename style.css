@@ -1,5 +1,5 @@
 body {background-color:black}
 h1{color:grey;font:verdana}
-.maindiv{background-color:white;font:black;width:300px;
-       border-radius: 25px;padding:auto;}
+.maindiv{background-color:white;color:black;width:300px;
+    border-radius: 25px;margin:auto;} /* # margin: auto */
 .maindiv .form label {display: inline-block;width: 100px;margin-bottom: 8px}
