@@ -1,3 +1,15 @@
+
+
+var slider = document.getElementById("rate");
+var output = document.getElementById("demo");
+output.innerHTML = slider.value;
+
+slider.oninput = function() {
+  output.innerHTML = this.value;
+}
+
+
+
 function compute(){    
       
         
@@ -18,7 +30,15 @@ function compute(){
         document.getElementById("p3").innerHTML = "You will receive an amount of? " + "<strong>" + result + "</strong> ";
         document.getElementById("p4").innerHTML = "in the year " + "<strong>" + years + "</strong> "; 
 
+
         
+        /* var slider = document.getElementById("rate");
+        var output = document.getElementById("demo");
+        output.innerHTML = slider.value;
+        
+        slider.oninput = function() {
+          output.innerHTML = this.value;
+        } */
                 
 }
 
@@ -27,6 +47,13 @@ function Optionselection(select){
     alert("years Chosen by you is " + chosen.value); 
 }
 
-
+var slider = document.getElementById("rate");
+        var output = document.getElementById("demo");
+        output.innerHTML = slider.value;
+        
+        slider.oninput = function() {
+          output.innerHTML = this.value;
+        }
+              
 
         
